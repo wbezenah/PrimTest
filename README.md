@@ -21,9 +21,9 @@ LIST (list of pairs of nodes with edges, along with their weight)
 
 EXAMPLE INPUT FILE:
 
-3__
-3 2 3__
-2 1 5__
+3  
+3 2 3  
+2 1 5  
 1 3 4
 
 This input file represents a graph with 3 vertices, with an edge between 3 and 2 with weight 3, an edge between 2 and 1 with weight 5, and an edge between 1 and 3 with weight 4
@@ -37,15 +37,15 @@ This input file represents a graph with 3 vertices, with an edge between 3 and 2
 
 This program produces an output.txt file that prints the minimum spanning tree for this graph along with the total computation time in the following format:
 
-Problem #__
-Adjacency List:__
-Edge : Weight__
-Node - Node : weight__
-...__
+Problem #  
+Adjacency List:  
+Edge : Weight  
+Node - Node : weight  
+...  
 Total computation time: 0.0 seconds
 
-Adjacency Matrix:__
-Edge : Weight__
-Node - Node : weight__
-...__
+Adjacency Matrix:  
+Edge : Weight  
+Node - Node : weight  
+...  
 Total computation time: 0.0 seconds
