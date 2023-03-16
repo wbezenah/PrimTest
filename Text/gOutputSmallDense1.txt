@@ -1,0 +1,25 @@
+Problem 1
+
+Prim's Algorithm using adjacency list representation:
+Edge : Weight
+0 - 2 : 1
+2 - 3 : 2
+3 - 8 : 1
+8 - 6 : 1
+2 - 1 : 2
+6 - 5 : 2
+6 - 4 : 3
+0 - 7 : 3
+Total Computation Time: 1.0268 milliseconds
+
+Prim's Algorithm using adjacency matrix representation:
+Edge : Weight
+0 - 2 : 1
+2 - 1 : 2
+1 - 3 : 2
+3 - 8 : 1
+8 - 6 : 1
+6 - 5 : 2
+0 - 7 : 3
+1 - 4 : 3
+Total Computation Time: 0.1748 milliseconds
