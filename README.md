@@ -16,7 +16,7 @@ java adjPrimAlg input.txt
 
 The input file should have the following format:
 
-NUMBER (number of nodes that are in the graph) 
+NUMBER (number of nodes that are in the graph)   
 LIST (list of pairs of nodes with edges, along with their weight)
 
 EXAMPLE INPUT FILE:
