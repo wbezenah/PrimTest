@@ -28,12 +28,12 @@ EXAMPLE INPUT FILE:
 
 This input file represents a graph with 3 vertices, with an edge between 3 and 2 with weight 3, an edge between 2 and 1 with weight 5, and an edge between 1 and 3 with weight 4
 
->>> TO USE GRAPH GENERATOR
-    -edit source code GraphGenerator.java
-    -use the GraphGenerator object's generateGraph(String outputFile, int minVertices, int maxVertices, bool sparse) method to generate graph input files.
-    -javac GraphGenerator.java
-    -java GraphGenerator
->>> CAN USE GRAPH GENERATOR OUTPUT FILES AS INPUT FILES FOR PRIMS
+>>> TO USE GRAPH GENERATOR  
+    -edit source code GraphGenerator.java  
+    -use the GraphGenerator object's generateGraph(String outputFile, int minVertices, int maxVertices, bool sparse) method to generate graph input files.  
+    -javac GraphGenerator.java  
+    -java GraphGenerator  
+>>> CAN USE GRAPH GENERATOR OUTPUT FILES AS INPUT FILES FOR PRIMS  
 
 This program produces an output.txt file that prints the minimum spanning tree for this graph along with the total computation time in the following format:  
 
